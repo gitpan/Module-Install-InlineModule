@@ -4,7 +4,7 @@
       "Ingy döt Net <ingy@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -24,7 +24,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.30"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "develop" : {
@@ -34,9 +34,8 @@
       },
       "runtime" : {
          "requires" : {
-            "IO::All" : "0",
-            "Inline::Module" : "0",
-            "Module::Install" : "1.10",
+            "Inline::Module" : "0.30",
+            "Module::Install" : "1.14",
             "perl" : "v5.8.1"
          }
       }
@@ -53,6 +52,6 @@
          "web" : "https://github.com/ingydotnet/module-install-inlinemodule-pm"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
 
